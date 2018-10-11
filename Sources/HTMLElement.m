@@ -169,7 +169,7 @@
 
 	if ([self.tagName isEqualToAny:@"area", @"base", @"basefont", @"bgsound", @"br", @"col", @"embed",
 	@"frame", @"hr", @"img", @"input", @"keygen", @"menuitem", @"param", @"source",
--//   @"frame", @"hr", @"img", @"input", @"keygen", @"link", @"menuitem", @"meta", @"param", @"source",
+//   @"frame", @"hr", @"img", @"input", @"keygen", @"link", @"menuitem", @"meta", @"param", @"source",
 		 @"track", @"wbr", nil]) {
 		return result;
 	}
